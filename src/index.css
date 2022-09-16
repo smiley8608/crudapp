@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .NavBtn{
+    @apply p-3 hover:bg-[#97cede] font-bold aspect-square rounded-lg hover:text-black hover:font-bold
+  }
+}
